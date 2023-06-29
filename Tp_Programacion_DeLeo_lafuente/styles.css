@@ -1,0 +1,270 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+}
+header,
+aside{
+    max-width: 100%;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(17, 146, 206);
+    color: white;
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+header h2{
+    font-size: 2rem;
+}
+
+#nueva{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    background-color: rgb(17, 146, 206);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
+
+aside{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: black;    
+    display: none;
+}
+
+aside div {
+    background-color: rgb(17, 146, 206);
+    height: 3rem;
+    padding: 3rem;
+   
+}
+
+#cerrar{
+    width: 50px;
+    height: 50px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 1rem;
+
+}
+
+input{
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    height: 50px;
+}
+
+#guardar{
+    background-color: rgb(17, 146, 206);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    height: 50px;
+
+}
+
+
+.MisPeliculas{
+    padding: 1rem;
+}
+
+.MisPeliculas header{
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    height: 2rem;
+    border-bottom: black 1px solid;
+    margin-bottom: .5rem;
+}
+
+.MisPeliculas h3{
+    color: black;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.MisPeliculas a{
+    line-height: 1.5rem;
+    text-decoration: none;
+    color: black;
+
+}
+
+@media screen and (min-width: 1024px){
+
+
+}
+     */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    max-width: 100%;
+    margin: auto;
+    background-color: rgb(17, 146, 206);
+    color: white;
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: bisque;
+
+}
+
+input{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 1rem;
+    height: 50px;
+}
+
+#nueva{
+    position: fixed;
+    right: 2rem;
+    bottom: auto;
+    background-color: rgb(17, 146, 206);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    font-size: 4rem;
+    color: white;
+}
+
+.ingreso div{background-color: bisque;}
+
+#cerrar{
+    width: 100px;
+    height: 100px;
+    background: rgb(17, 146, 206);
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 4rem;
+    margin: 1rem;
+    margin-left: 4rem;
+
+}
+
+#agregar{
+    background-color: rgb(17, 146, 206);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    height: 50px;
+
+}
+
+#info{
+    position: fixed;
+    margin: auto;
+    bottom: 1rem;
+    margin-left: 4rem;
+    background-color: rgb(17, 146, 206);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    font-size: 2rem;
+    color: white;
+}
+
+.botones{
+    display: flex;
+}
+.ingreso{
+    display: none;
+}
+
+
+.tarjeta{
+    margin: 2rem;
+    width: 10rem;
+    border: 2px black solid;
+    
+   
+}
+
+.tarjeta h3{
+    background-color: rgb(17, 146, 206);;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 2px black solid;
+
+}
+
+.tarjeta p{
+    padding:.5rem;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.info{
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.alumno{
+    padding: 3rem;
+    border: 2px black solid;
+    margin: 2rem;
+    height: 400px;
+    width: 300px;
+}
+
+.foto{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.datos{
+    margin-top: 1rem;
+    text-align: center;
+}
